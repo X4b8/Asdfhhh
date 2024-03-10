@@ -4,7 +4,7 @@
 #تابع لقناة @ICTS_930
 <?php
 ob_start();
-$token = "توكن"; 
+$token = "7050649862:AAEnNyILpUMp4p8WAgevqX1auEJUTS4MA00"; 
 define("API_KEY",$token);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){
